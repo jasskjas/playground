@@ -92,3 +92,25 @@ h1 {
 }
 }
 
+@media screen and (max-width: 178px) {
+
+  .key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+  
+  .white {
+    --width: 15px;
+    background-color: white;
+    border: 1px solid #333;
+  }
+  
+.black {
+  --width: 10px;
+  background-color: black;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+}
+}
+
