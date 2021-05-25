@@ -6,9 +6,11 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 
     var buttonInnerHTML = this.innerHTML;
 
-    makeSound(buttonInnerHTML);
+    //makeSound(buttonInnerHTML);
 
     buttonAnimation(buttonInnerHTML);
+
+    playNote(buttonInnerHTML);
 
   });
 
@@ -67,6 +69,11 @@ function makeSound(key) {
   }
 }
 
+function playNote(key){
+  const noteAudio = document.getElementById(key)
+  noteAudio.currentTime = 0
+  noteAudio.play()
+}
 
 function buttonAnimation(currentKey) {
 
