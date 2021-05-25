@@ -48,3 +48,47 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 
 }
+@media screen and (max-width: 718px) {
+
+  .key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+  
+  .white {
+    --width: 50px;
+    background-color: white;
+    border: 1px solid #333;
+  }
+  
+.black {
+  --width: 30px;
+  background-color: black;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+}
+}
+
+@media screen and (max-width: 364px) {
+
+  .key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+  
+  .white {
+    --width: 25px;
+    background-color: white;
+    border: 1px solid #333;
+  }
+  
+.black {
+  --width: 15px;
+  background-color: black;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+}
+}
+
