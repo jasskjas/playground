@@ -166,6 +166,49 @@ z-index: -1;
   }
 }
 
+@media screen and (max-width: 196px) {
+  .f {
+    font-size: 4vw;
+    left: 22vw ;
+    top: 6vw;
+  }
+  
+  .a {
+    font-size: 4vw;
+    left: 29vw ;
+    top: 3vw;
+  }
+  
+  .s {
+    font-size:4vw;
+    left: 25vw ;
+    top: 17vw;
+  }
+  
+  .d {
+    font-size: 4vw;
+    left: 28vw ;
+    top: 18vw;
+  }
+  
+  .j {
+    font-size: 4vw;
+    right: 48vw ;
+    top: 15vw;
+  }
+  .k {
+    font-size: 4vw;
+    right: 73vw;
+    top: 5vw;
+  }
+  
+  .l {
+    font-size: 4vw;
+    top: 15vw;
+    right: 2vw;
+  }
+}
+
 
 
 
