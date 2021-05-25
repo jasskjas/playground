@@ -93,12 +93,12 @@ z-index: -1;
 @media screen and (max-width: 666px) {
   .f {
     font-size: 10vw;
-    left: 12vw ;
+    left: 22vw ;
   }
   
   .a {
     font-size: 10vw;
-    left: 28vw ;
+    left: 30vw ;
     bottom: 5vw;
   }
   
@@ -121,7 +121,7 @@ z-index: -1;
   }
   .k {
     font-size: 10vw;
-    right: 58vw;
+    right: 62vw;
   }
   
   .l {
